@@ -1330,6 +1330,10 @@ footer .redes {
         color: gray;
     }
 
+    .logo h2{
+        margin: 0 0 10px 0;
+    }
+
     .section-3 .container1 {
         color: white;
         width: 90%;
