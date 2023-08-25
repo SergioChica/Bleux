@@ -1319,8 +1319,8 @@ footer .redes {
     }
 
     .container2 .box-1, .box-2, .box-3 {
-        height: 42vh;
-        width: 60%;
+        height: 48vh;
+        width: 64%;
         background-color: white;
         display: flex;
         flex-direction: column;
