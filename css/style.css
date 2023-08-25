@@ -786,7 +786,7 @@ footer .redes {
     }
 
     .container2 .box-1, .box-2, .box-3 {
-        height: 75vh;
+        height: 55vh;
         width: 33vh;
         background-color: white;
         display: flex;
@@ -1083,8 +1083,8 @@ footer .redes {
     }
 
     .container2 .box-1, .box-2, .box-3 {
-        height: 70vh;
-        width: 29vh;
+        height: 47vh;
+        width: 42%;
         background-color: white;
         display: flex;
         flex-direction: column;
@@ -1194,7 +1194,7 @@ footer .redes {
 
     .texto-section-1 p {
         font-size: 14px;
-        padding: 40px 0;
+        padding: 24px 0;
     }
 
     .button-section-1 {
@@ -1214,15 +1214,43 @@ footer .redes {
         font-size: 13px;
     }
 
-    .imagen-section-1 {
-        background: url(../images/hojasFondo.jpg);
-        background-size: cover;
-        width: 50%;
-        height: 70vh;
+    .section-1 .texto-section-1 {
+        background-color: rgb(54, 43, 93);
+        width: 100%;
+        color: white;
+        justify-content: center;
         display: flex;
         align-items: center;
-        justify-content: start;
-        padding: 0 0px 0px 35px;
+    }
+
+    .title-section-1 {
+        display: flex;
+        gap: 15px;
+    }
+
+    .texto-section-1 h2 {
+        font-size: 35px;
+        margin: 20px 0 0 0;
+    }
+
+    .texto-section-1 p {
+        font-size: 13px;
+        padding: 24px 0;
+        width: 91%;
+    }
+
+    .button-section-1 {
+        border-radius: 5px;
+        width: 70%;
+        padding: 5px 0;
+        border: 1px solid rgb(149, 149, 149);
+        display: flex;
+        margin: 0 0 20px 0;
+        flex-direction: row;
+    }
+
+    .imagen-section-1 {
+        display: none;
     }
 
     .imagen-section-1 img {
@@ -1290,6 +1318,18 @@ footer .redes {
         margin: 30px 0 30px 0px;
     }
 
+    .container2 .box-1, .box-2, .box-3 {
+        height: 42vh;
+        width: 60%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        align-items: center;
+        margin: 0 30px 20px 30px;
+        color: gray;
+    }
+
     .section-3 .container1 {
         color: white;
         width: 90%;
@@ -1300,7 +1340,7 @@ footer .redes {
     }
 
     .container1 p {
-        font-size: 15px;
+        font-size: 13px;
         width: 100%;
         margin: 0 0 50px 0;
     }
